@@ -1,1 +1,53 @@
-/* Desenvolva seu código aqui... */
+body {
+ display: flex;
+
+}
+
+.section-marca {
+ background-color: var(--color-grey-4);
+ padding: 9vw;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ width: 50vw;
+ height: 100vh;
+ gap: 50px;
+}
+
+.section-login {
+ background-color: var(--color-grey-6);
+ padding: 12vw;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ width: 50vw;
+ height: 100vh;
+ gap: 30px;
+}
+
+.box-login {
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+ height: 100%;
+}
+
+.box-input-submit {
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ width: 100%;
+}
+
+.esqueceu-senha {
+ padding: 10px 30px;
+ cursor: pointer;
+ text-decoration: underline;
+ background-color: transparent;
+ border: none;
+}

@@ -5,7 +5,8 @@
 }
 
 :root{
-    --color-primary: /* definir */;
+    --color-red-primary: #0A04B3;
+    --color-red-secundary: #9b0f00;
     --color-grey-1: #191C1F;
     --color-grey-2: #212529;
     --color-grey-3: #343A40;

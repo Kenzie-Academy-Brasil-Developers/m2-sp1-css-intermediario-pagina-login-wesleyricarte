@@ -1,0 +1,47 @@
+:root {
+  --border-radius-default: 30px;
+  --padding-default: 0px 30px;
+  --height-default: 60px;
+  --border-default: solid 2px var(--color-grey-6);
+}
+
+.box-title-login {
+  background-color: var(--color-grey-4);
+  height: var(--height-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-default);
+  border-radius: var(--border-radius-default);
+  border: var(--border-default);
+}
+
+.box-input-submit label {
+  padding: 25px 30px 5px 30px;
+  width: 100%;
+  border-radius: var(--border-radius-default);
+}
+
+.box-input-submit input {
+  background-color: var(--color-grey-5);
+  padding: 0px 30px;
+  height: var(--height-default);
+  width: 100%;
+  border-radius: var(--border-radius-default);
+  border: none;
+}
+
+.box-submit {
+  background-color: var(--color-grey-4);
+  margin-top: 30px;
+  height: var(--height-default);
+  width: 100%;
+  border-radius: var(--border-radius-default);
+  border: var(--border-default);
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.box-submit:hover {
+  opacity: 100%;
+}
